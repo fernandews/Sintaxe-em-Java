@@ -4,13 +4,13 @@ public class Maior {
     public static void main(String[] args) {
         Scanner keyboard = new Scanner(System.in);
         System.out.print("Informe o primeiro número: ");
-        float r = (float) keyboard.nextInt();
+        float r = (float) keyboard.nextFloat();
 
         System.out.print("Informe o segundo número: ");
-        float s = (float) keyboard.nextInt();
+        float s = (float) keyboard.nextFloat();
 
         System.out.print("Informe o terceiro número: ");
-        float t = (float) keyboard.nextInt();
+        float t = (float) keyboard.nextFloat();
 
         if (r >= s && r >= t) {
             System.out.print("O maior número é: ");
